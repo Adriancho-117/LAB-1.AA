@@ -72,12 +72,12 @@ def modificar():
             f["comentario"] = input("Nuevo comentario: ")
     # Guardamos la lista actualizada
     guardar(lista)
-    print("✏️ Modificado!")
+    print("Modificado!")
 
 def ver():
     lista = cargar()
     if len(lista) == 0:
-        print("📭 No hay favoritos")
+        print(" No hay favoritos")
     else:
         print("\n=== LISTA DE FAVORITOS ===")
         #  FOR para recorrer la lista e imprimir cada favorito
