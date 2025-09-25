@@ -51,7 +51,7 @@ def eliminar():
     titulo = input("Titulo a eliminar: ")
     nueva = []
     # Recorremos la lista con un FOR
-    # ⚠️ El for se usa aquí para revisar favorito por favorito
+    #  El for se usa aquí para revisar favorito por favorito
     # y decidir si lo guardamos en la nueva lista o no
     for f in lista:
         if f["titulo"] != titulo:   # Si el título no coincide, lo conservamos
