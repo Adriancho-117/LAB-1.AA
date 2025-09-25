@@ -36,9 +36,9 @@ lista = [int(input(f"Valor {i+1}: ")) for i in range(n)]
 print("\nLista original:", lista)
 
 # Orden ascendente (se pasa una copia para no modificar la lista original)
-asc = burbuja(lista[:], True)   # aquí uso lista[:] en lugar de .copy()
+asc = burbuja(lista[:], True)   
 print("Orden ascendente:", asc)
 
 # Orden descendente
-desc = burbuja(lista[:], False) # también lista[:] para clonar
+desc = burbuja(lista[:], False) 
 print("Orden descendente:", desc)
