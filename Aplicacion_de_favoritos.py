@@ -3,7 +3,7 @@ import json
 ARCHIVO = "favoritos.json"
 
 # ==============================
-# FUNCIONES AUXILIARES
+# FUNCIONES AUX
 # ==============================
 
 def cargar():
