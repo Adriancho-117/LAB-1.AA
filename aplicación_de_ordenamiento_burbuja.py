@@ -4,8 +4,6 @@
 
 def burbuja(lista, ascendente=True):
     """
-    Ordena una lista usando el algoritmo de burbuja.
-    
     Parámetros:
         lista (list): Lista de números a ordenar.
         ascendente (bool): 
