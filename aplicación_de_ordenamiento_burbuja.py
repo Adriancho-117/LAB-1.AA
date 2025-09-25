@@ -1,5 +1,5 @@
 # ==============================
-# ORDENAMIENTO BURBUJA
+# APLICACION DE ORDENAMIENTO BURBUJA
 # ==============================
 
 def burbuja(lista, ascendente=True):
@@ -12,7 +12,7 @@ def burbuja(lista, ascendente=True):
             - True -> ordena de menor a mayor (ascendente).
             - False -> ordena de mayor a menor (descendente).
     
-    Retorna:
+    devuelve:
         list: La lista ordenada.
     """
     n = len(lista)
@@ -25,9 +25,7 @@ def burbuja(lista, ascendente=True):
     return lista
 
 
-# ==============================
-# PROGRAMA PRINCIPAL
-# ==============================
+
 
 # Pedir tamaño de la lista
 n = int(input("Tamaño de la lista: "))
